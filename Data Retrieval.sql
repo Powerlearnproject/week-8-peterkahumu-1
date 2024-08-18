@@ -10,7 +10,7 @@ SELECT * FROM Infrastructure;
 -- Retrieve specific (filtered data.)
 -- Retrieve water sources and their locations for a specific region (RegionID = 5)
 SELECT * FROM WaterSource
-WHERE RegionID = 5;
+WHERE RegionID = 4;
 
 -- Retrieve water quality data for water sources with contamination level of E. coli greater than 150
 SELECT WaterSourceID, ContaminantType, ContaminationLevel
